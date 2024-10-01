@@ -1,4 +1,3 @@
-import axios from "axios";
 import { DepthManager } from "./DepthManager";
 import { cancelAll, createOrder } from "./order";
 
@@ -44,4 +43,4 @@ async function main(){
 
 setTimeout(() => {
     main();
-}, 2000);
+}, 2000)
