@@ -2,7 +2,6 @@ import axios from "axios";
 import { DepthManager } from "./DepthManager";
 import { cancelAll, createOrder } from "./order";
 
-
 const solINRMarket = new DepthManager('B-XAI_INR')
 
 const usdtINRMarket = new DepthManager('B-USDT_INR')
